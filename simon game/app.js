@@ -67,7 +67,7 @@ function checkans(idx){
         p.innerHTML=`Game over! Your Score is <b>${level}</b><br><br> Highest Score = ${k}`;
         document.querySelector('body').style.backgroundColor="red";
         setTimeout(function(){
-            document.querySelector('body').style.backgroundColor='#F4ACB7';
+            document.querySelector('body').style.backgroundColor='white';
         },150);
         reset();
         
